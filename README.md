@@ -76,6 +76,7 @@ The repository ZIP is a public-sharing copy of the agent export with a legacy ke
 | Grade 8 fee due date | Initially failed: matched Academic Information. Passed after adding fee training phrases and tagging “Grade 8” as `class_level`. |
 | Fee enquiry → accounts office → attendance | Passed: matched each new topic and captured the relevant department or class. |
 | Unclear message → school timings | Passed: gave a fallback, then recovered and matched School Timings. |
+| Bus route enquiry | Passed: matched Transport Information, captured Bus Route, and directed the parent to the transport department without inventing route details. | [Screenshot](10-transport-bus-route.png) |
 
 ## Live chatbot
 
