@@ -70,7 +70,12 @@ The repository ZIP is a public-sharing copy of the agent export with a legacy ke
 
 ## Testing and improvements
 
-Live test results will be added after testing in Dialogflow. The planned scenarios cover attendance slot filling, exam enquiries, fee follow-ups, switching topics, and fallback recovery. Each recorded test should include the input, expected behaviour, actual response, pass/fail result, and any change made to improve the bot.
+| Test | Result |
+| --- | --- |
+| Grade 8 midterm exam | Passed: captured the class and exam type; directed the parent to confirmed school sources. |
+| Grade 8 fee due date | Initially failed: matched Academic Information. Passed after adding fee training phrases and tagging “Grade 8” as `class_level`. |
+| Fee enquiry → accounts office → attendance | Passed: matched each new topic and captured the relevant department or class. |
+| Unclear message → school timings | Passed: gave a fallback, then recovered and matched School Timings. |
 
 ## Live chatbot
 
