@@ -79,7 +79,9 @@ The repository ZIP is a public-sharing copy of the agent export with a legacy ke
 
 ## Live chatbot
 
-**Link:** To be added after enabling and testing a Dialogflow integration.
+[Open ParentConnect AI](https://arpitsrivastava-ibcp.github.io/IDAI101-1000626-Arpit-Brijesh-Srivastava/)
+
+Click the chat icon in the bottom-right corner to start. The chatbot helps parents with attendance, exams, fees, and other school enquiries. It does not access live student records or confirmed school schedules.
 
 ## Scope and limitations
 
